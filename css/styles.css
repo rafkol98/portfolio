@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  color: rgb(218, 218, 218);
+  color: rgb(235, 235, 235);
 }
 
 abbr[title],
@@ -10040,6 +10040,7 @@ p.lead {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
+  color: rgb(186, 186, 186);
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
