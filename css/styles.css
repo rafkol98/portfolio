@@ -169,7 +169,7 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #c9c9c9;
+  color: #f73737;
   text-decoration: underline;
 }
 
@@ -10163,4 +10163,9 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.cv{
+  color: white;
+  font-size: large;
 }
