@@ -10169,3 +10169,11 @@ section.resume-section .resume-section-content {
   color: white;
   font-size: large;
 }
+
+.bold{
+  font-weight: bold;
+}
+
+ul {
+  color: rgb(220, 220, 220);
+}
