@@ -206,7 +206,7 @@
 
 
 
-        <hr class="m-0" />
+        <hr class="m-0">
         <section class="resume-section" id="skills">
             <div class="resume-section-content">
                 <h2 class="mb-5"><i class="fa-solid fa-gear fa-spin"></i> Technical Skills proficiency</h2>
@@ -301,50 +301,305 @@
 
                 </div>
             </div>
-            </section>  
-            <hr class="m-0">
-            <section class="resume-section" id="projects">
-                <div class="resume-section-content">
-                    <h2 class="mb-5"><i class="fa-solid fa-diagram-project"></i> Projects</h2>
-                    <div class="row mb-3">
-                        <div class="col-md-6">
-                            <div class="card p-3">
-                                <h4>St Andrews dissertation</h4>
-                                <p>Use of machine learning to identify biomarkers that can predict sensitivity or resistant to a new anti-cancer drug (NUC-7738) using extremely high dimensional multi-omics data (gene expression, proteomics, gene effect, alternative polyadenylation).</p>
-                                <hr>
-                                <p>Technologies used: Python, SciKit-learn, Tensorflow, SciPy, NumPy, Seaborn, Matplotlib</p>
-                                
-                                <p>All of the code is private since the dataset is owned by NuCana and thus there are certain things that cannot be shared. Click below to explore one of the eight Jupyter notebooks I wrote, as a sample.</p>
-                                <a href="https://colab.research.google.com/drive/1m2D48b_S1wOlzPKw6eH3cP6p57cpXv5M?usp=sharing" class="btn btn-primary" target="_blank">Visit notebook</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card p-3">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem minus aut repudiandae libero cupiditate veniam atque! Officia non, maiores facere dolorem blanditiis, error nemo, cupiditate necessitatibus omnis voluptas dignissimos laboriosam!</p>
-                            </div>
+        </section>
+        <hr class="m-0">
+        <section class="resume-section" id="projects">
+            <div class="resume-section-content">
+                <h2 class="mb-1"><i class="fa-solid fa-diagram-project"></i> Highlighted Projects</h2>
+                <p class="lead">I recently worked on a variety of projects, and I would like to showcase a selection of them here. However, if you're interested in seeing more, you can check out my <a href="https://github.com/rafkol98">Github profile</a> where you can find a more comprehensive list of my work (even though not all of my projects are public).</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card project p-5 m-4">
+                            <h4>St Andrews dissertation</h4>
+                            <img src="./assets/img/diss-msc.png" class="img-fluid mb-3 rounded mx-auto d-block"
+                                alt="msc diss">
+                            <p>Use of machine learning to identify biomarkers that can predict sensitivity or resistant
+                                to a
+                                new anti-cancer drug (NUC-7738) using extremely high dimensional multi-omics data.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#st-andrewsModal">
+                                Explore
+                            </button>
                         </div>
                     </div>
-
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="card p-3">
-                                <h4>Quantum-Quack.org</h4>
-                                <p>Quantum Quack makes a random choice in a list of options you provide. The choice is made using quantum random numbers, which are truly random, as opposed to ordinary random numbers.</p>
-                                <hr>
-                                <p>Technologies used: HTML/CSS, JavaScript, Node.js, Firebase</p>
-                            
-                                <a href="https://quantum-quack.org/" class="btn btn-primary"  target="_blank">Visit</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card p-3">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem minus aut repudiandae libero cupiditate veniam atque! Officia non, maiores facere dolorem blanditiis, error nemo, cupiditate necessitatibus omnis voluptas dignissimos laboriosam!</p>
-                            </div>
+                    <div class="col-md-6">
+                        <div class="card project p-5 m-4">
+                            <h4>Newcastle dissertation</h4>
+                            <img src="./assets/img/platform.png" class="img-fluid mb-3 rounded mx-auto d-block"
+                                alt="bsc diss">
+                            <p>Using machine learning to aid the diagnosis of cardiovascular disease. Implemented a full
+                                stack web platform that doctors can use to obtain an ML prediction on a patient's CVD
+                                risk.</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#newcastleModal">
+                                Explore
+                            </button>
                         </div>
                     </div>
                 </div>
-    
 
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card project p-5 m-4">
+                            <h4>Quantum-Quack.org</h4>
+                            <img src="./assets/img/quantum-quack.png" class="img-fluid mb-3 rounded mx-auto d-block"
+                                alt="quantum-quack.org">
+                            <p>Quantum Quack makes a random choice in a list of options you provide. The choice is made
+                                using quantum random numbers, which are truly random, as opposed to ordinary random
+                                numbers.
+                            </p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#quantumModal">
+                                Explore
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card project p-5 m-4">
+                            <h4>Holodoro</h4>
+                            <img src="./assets/img/holodoro.png" class="img-fluid rounded  mx-auto d-block"
+                                alt="Responsive image">
+                            <p>An interactive software and hardware project that rewards the users by automatically
+                                watering their favourite plant whenever they study. Oh, and it also involves a
+                                holographic timer!</p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#holodoroModal">
+                                Explore
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="st-andrewsModal" tabindex="-1" aria-labelledby="st-andrewsModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="st-andrewsModalLabel">st andrews dissertation</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Cancer is a leading cause of death worldwide, causing nearly one in six deaths.
+                                Resistance
+                                to therapy continues to be a primary cause of cancer treatment failures, resulting in a
+                                high
+                                number of cancer-related deaths. Recent technological advancements and the availability
+                                of a
+                                vast amount of omics data have ushered us into a new era of precision medicine, a
+                                paradigm
+                                shift away from one-size-fits-all cancer treatment toward patient-specific medicine. The
+                                main aim of this project was the in-depth statistical analysis of the NUC-7738 drug
+                                using
+                                multiple omics datasets and the development of machine learning (ML) models that can be
+                                used
+                                to predict in vitro whether an individual would be sensitive or resistant. Through data
+                                analysis and visualisation, tumour origins that are likely to be sensitive and resistant
+                                to
+                                the drug were identified. Extensive correlation analysis identified genes that highly
+                                correlate with drug efficacy across different omics datasets (gene expressions,
+                                alternative
+                                polyadenylation, proteomics, gene effect, mutations). Furthermore, through a range of
+                                feature selection and ML methods, predictive models were created that can be used to
+                                predict
+                                drug response given a patient’s molecular characteristics. A multi-omics model that
+                                incorporates all the models’ predictions was also attempted, with modest success.
+                                Clustering
+                                cancer cell lines based on their alternative polyadenylation usage yielded two clusters
+                                with
+                                varied drug sensitivity. Ensemble clustering of the gene effect dataset revealed genes
+                                with
+                                similar dependency profiles, which is especially beneficial when it comes to identifying
+                                alternative druggable targets for genes of interest that are not conventionally
+                                druggable.
+                                Finally, correlation analysis when the drug was combined with two other promising drugs
+                                was
+                                performed. This showcased that when the drug was used in combination with Paclitaxel,
+                                the
+                                HINT1 gene, which is required to activate NUC- 7738, had a significantly stronger
+                                correlation with drug efficacy.</p>
+                            <hr>
+                            <h5>Main technologies used:</h5>
+                            <h5 class="mb-4"><span class="badge rounded-pill bg-primary">Python</span> <span
+                                    class="badge rounded-pill bg-primary">SciKit-learn</span> <span
+                                    class="badge rounded-pill bg-primary">Tensorflow</span> <span
+                                    class="badge rounded-pill bg-primary">SciPy</span> <span
+                                    class="badge rounded-pill bg-primary">NumPy</span> <span
+                                    class="badge rounded-pill bg-primary">Seaborn</span> <span
+                                    class="badge rounded-pill bg-primary">Matplotlib</span> </h5>
+                            <h6>Important note:</h6>
+                            <p>All of the code I have written is in a private repository, since the dataset is owned by
+                                NuCana and cannot be shared. Click below to explore one of the eight Jupyter notebooks I
+                                wrote, as a sample.</p>
+                            <a href="https://colab.research.google.com/drive/1m2D48b_S1wOlzPKw6eH3cP6p57cpXv5M?usp=sharing"
+                                class="btn btn-primary" target="_blank">Visit sample notebook</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="newcastleModal" tabindex="-1" aria-labelledby="newcastleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="newcastleModalLabel">newcastle dissertation</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Cardiovascular Disease (CVD) is the number one cause of death worldwide, killing
+                                thousands
+                                of people
+                                every day. Recent advances in Machine Learning (ML) have brought new ways to diagnose
+                                CVD.
+                                The
+                                purpose of this project was to create a web platform that uses an ML model and a
+                                visualization library
+                                to enable cardiologists to visualize and predict their patient's condition in seconds.
+                                The
+                                project
+                                experimented with five ML classification algorithms, with Random Forest performing the
+                                best
+                                and
+                                therefore being deployed on a web platform developed. The web platform was developed
+                                using
+                                Flask.</p>
+                            <hr>
+                            <h5>Main technologies used:</h5>
+                            <h5 class="mb-4"><span class="badge rounded-pill bg-primary">Python</span> <span
+                                    class="badge rounded-pill bg-primary">SciKit-learn</span> <span
+                                    class="badge rounded-pill bg-primary">Flask</span> <span
+                                    class="badge rounded-pill bg-primary">Matplotlib</span>
+                                <span class="badge rounded-pill bg-primary">Firebase</span>
+                            </h5>
+
+                            <a href="https://github.com/rafkol98/CVD-model" class="btn btn-primary" target="_blank">Code
+                                for ML model development</a>
+                            <a href="https://github.com/rafkol98/CVD-web" class="btn btn-primary" target="_blank">Code
+                                for web platform</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="quantumModal" tabindex="-1" aria-labelledby="quantumModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="quantumModalLabel">quantum-quack.org</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Following a discussion with a physicist friend, I created a simple website that allows
+                                you to use quantum random numbers to escape determinism!
+                                <br>
+                                The inability to predict the outcome of a process is defined as randomness. When rolling
+                                a die, for example, it is impossible to predict what number will come up. It is
+                                important to note, however, that randomness is not inherent in the process. A dice roll
+                                obeys the laws of mechanics and can be predicted if the initial conditions are known
+                                precisely and computing power is sufficient. Similarly, when a computer chooses an
+                                option at random, the numbers remain deterministic because they are generated using a
+                                seed value, which is required to initialize the algorithm. If the same seed value is
+                                used, the same sequence of "random" numbers will be generated. While this is adequate
+                                for some applications, the outcome can be predicted if the seed value and algorithm are
+                                known. Processes that follow precise laws are referred to as deterministic.
+                                <br>
+                                Laplace famously stated that if an intelligence had complete knowledge of the universe
+                                at a given instant and knew the laws of nature, it would be able to predict all future
+                                and past events. This means that everything we do in life, including you reading this
+                                text, is determined by the initial conditions of the universe.
+                                <br>
+                                Later, physicists discovered quantum phenomena, which are fundamentally random and
+                                involve elementary particles such as electrons and photons. No matter how much we know
+                                about the initial conditions, the outcome of these processes cannot be predicted.
+                                However, quantum phenomena exist only at the microscopic level and have no effect on
+                                processes at the human scale.
+                                <br>
+                                Here's where our website comes in. Quantum random number generators use the inherent
+                                randomness of quantum processes to generate a sequence of random numbers that, in
+                                theory, cannot be predicted. We use this to quantum randomly select one of the options
+                                you enter, allowing you to bring quantum randomness to the macroscopic scale and
+                                theoretically enjoy experiences and memories that are truly free of determinism.
+                            </p>
+                            <hr>
+                            <h5>Main technologies used:</h5>
+                            <h5 class="mb-4"><span class="badge rounded-pill bg-primary">HTML/CSS</span> <span
+                                    class="badge rounded-pill bg-primary">JavaScript</span> <span
+                                    class="badge rounded-pill bg-primary">Node.js</span> <span
+                                    class="badge rounded-pill bg-primary">Firebase</span> </h5>
+
+                            <a href="https://quantum-quack.org/" class="btn btn-primary" target="_blank">Visit
+                                website</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="holodoroModal" tabindex="-1" aria-labelledby="holodoroModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="holodoroModalLabel">Holodoro</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                My prototype is a smart physical device that assists students in studying using the
+                                Pomodoro technique.
+                                I have been using this technique to divide my study sessions into small, highly focused
+                                chunks separated by short breaks since I was fifteen years old. I have always wished for
+                                a system that would allow me to track this habit while also visualising and rewarding my
+                                progress in a meaningful way.
+                                This prototype is based on this concept and provides a complete system to accomplish
+                                that.
+                                <br>
+                                <br>
+                                Features:
+                            <ul>
+                                <li>Its main component is powered by an Arduino Uno and includes a holographic timer and
+                                    alarm system (such the name Holodoro).</li>
+                                <li>Semi-autonomous plant watering system that is watering the user’s favourite plant
+                                    based on their studying habits, powered by an Arduino micro.</li>
+                                <li>Wireless component on this system located outside of the room that turns LED lights
+                                    red whenever the user is studying, and green whenever they are having a break
+                                    (do-not disturb feature).</li>
+                                <li>System is mainly controlled using voice commands (NLP).</li>
+                                <li>Uses Firebase for its authentication and database purposes, and provides a web
+                                    interface using p5.js.</li>
+                                <li>Other smart features include: measuring plant growth over time and generating a
+                                    visual comparison. Automatic pause of a study session whenever the user leaves the
+                                    computer, powered by ML.</li>
+                            </ul>
+                            </p>
+                            <hr>
+                            <h5>Main technologies used:</h5>
+                            <h5 class="mb-4"><span class="badge rounded-pill bg-primary">HTML/CSS</span> <span
+                                    class="badge rounded-pill bg-primary">JavaScript</span>
+                                <span class="badge rounded-pill bg-primary">ml5.js</span>
+                                <span class="badge rounded-pill bg-primary">Firebase</span>
+                                <span class="badge rounded-pill bg-primary">p5.js</span>
+                                <span class="badge rounded-pill bg-primary">Arduino</span>
+                            </h5>
+
+                            <div>
+                                <a href="https://github.com/rafkol98/Holodoro" class="btn btn-primary"
+                                    target="_blank">Code</a>
+                                <a href="https://drive.google.com/file/d/1rfzH-Mcbd3bcKzxe5-EXQ--f4WUvHiuS/view?usp=share_link"
+                                    class="btn btn-primary" target="_blank">Demo video</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            
+
+        </section>
 
     </div>
 
