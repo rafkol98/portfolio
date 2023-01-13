@@ -3,14 +3,14 @@
     * Copyright 2013-2020 Start Bootstrap
     * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
     */
-    (function ($) {
+(function ($) {
     "use strict"; // Start of use strict
 
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
         if (
             location.pathname.replace(/^\//, "") ==
-                this.pathname.replace(/^\//, "") &&
+            this.pathname.replace(/^\//, "") &&
             location.hostname == this.hostname
         ) {
             var target = $(this.hash);
@@ -40,3 +40,22 @@
         target: "#sideNav",
     });
 })(jQuery); // End of use strict
+
+var typed = new Typed('#hello', {
+    strings: [, "Hey 👋🏼, I am Rafael Kollyfas.", "Welcome to my website!"],
+    typeSpeed: 50,
+    loop: true,
+    backSpeed: 100,
+    backDelay: 8000,
+    cursorChar: ".",
+    showCursor: false
+});
+
+
+document.getElementById("load-pdf-st-andrews").addEventListener("click", function () {
+    window.open("./assets/pdf/Dissertation-st-andrews.pdf", "_blank");
+});
+// /Users/rafaelkoll/Desktop/4/portfolio/assets/pdf/
+
+// file:///Users/rafaelkoll/Desktop/4/assets/pdf/Dissertation-st-andrews.pdf
+// /Users/rafaelkoll/Desktop/4/portfolio/assets/pdf/Dissertation-st-andrews.pdf
