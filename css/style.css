@@ -234,6 +234,5 @@ ul li {
 }
 
 .project {
-  height: 500px; 
-  overflow: auto; /* Add this to enable scrolling if the content exceeds the height */
+  height: 550px;
 }
