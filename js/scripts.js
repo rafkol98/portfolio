@@ -42,7 +42,7 @@
 })(jQuery); // End of use strict
 
 var typed = new Typed('#hello', {
-    strings: [, "Hey 👋🏼, I am Rafael Kollyfas.", "Welcome to my website!"],
+    strings: [, "Hey 👋🏼, I am Rafael Kollyfas.", "I ❤️ programming, learning, and collaborating!"],
     typeSpeed: 50,
     loop: true,
     backSpeed: 100,
@@ -55,7 +55,3 @@ var typed = new Typed('#hello', {
 document.getElementById("load-pdf-st-andrews").addEventListener("click", function () {
     window.open("./assets/pdf/Dissertation-st-andrews.pdf", "_blank");
 });
-// /Users/rafaelkoll/Desktop/4/portfolio/assets/pdf/
-
-// file:///Users/rafaelkoll/Desktop/4/assets/pdf/Dissertation-st-andrews.pdf
-// /Users/rafaelkoll/Desktop/4/portfolio/assets/pdf/Dissertation-st-andrews.pdf
