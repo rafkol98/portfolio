@@ -57,7 +57,6 @@
                     education.</p>
                 </p>
 
-
                 <div class="social-icons text-center">
                     <a class="social-icon" href="https://www.linkedin.com/in/rafael-kollyfas-58b7781a2/"
                         target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -336,16 +335,15 @@
                     </div>
                     <div class="col-md-6">
                         <div class="card project p-5 m-2">
-                            <h4>Newcastle dissertation</h4>
-                            <img src="./assets/img/platform.png" class="img-fluid mb-3 rounded mx-auto d-block"
+                            <h4>Context-Free Grammar</h4>
+                            <img src="./assets/img/CFG.png" class="img-fluid mb-3 rounded mx-auto d-block"
                                 alt="bsc diss">
-                            <p>Using machine learning to aid the diagnosis of cardiovascular disease. Implemented a full
-                                stack web platform that doctors can use to obtain an ML prediction on a patient's CVD
-                                risk.</p>
+                            <p>Context-free grammar (CFG) for parsing English sentences, extended with number agreement and subcategorization features to improve linguistic accuracy. Tested the grammar with positive and negative sentences for validation.</p>
                             <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#newcastleModal">
+                                data-bs-target="#cfgModal">
                                 Explore
                             </button>
+
                         </div>
                     </div>
                 </div>
@@ -517,45 +515,32 @@
                 </div>
             </div>
 
-            <div class="modal fade" id="newcastleModal" tabindex="-1" aria-labelledby="newcastleModalLabel"
+            <div class="modal fade" id="cfgModal" tabindex="-1" aria-labelledby="cfgModalLabel"
                 aria-hidden="true">
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="newcastleModalLabel">newcastle dissertation</h5>
+                            <h5 class="modal-title" id="cfgModalLabel">Context-Free Grammar</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <p>Cardiovascular Disease (CVD) is the number one cause of death worldwide, killing
-                                thousands
-                                of people
-                                every day. Recent advances in Machine Learning (ML) have brought new ways to diagnose
-                                CVD.
-                                The
-                                purpose of this project was to create a web platform that uses an ML model and a
-                                visualization library
-                                to enable cardiologists to visualize and predict their patient's condition in seconds.
-                                The
-                                project
-                                experimented with five ML classification algorithms (Random Forest, XGBoost, CatBoost, KNN, Logistic Regression), with Random Forest performing the
-                                best
-                                and
-                                therefore being deployed on a web platform developed. The web platform was developed
-                                using
-                                Flask.</p>
+                            <p>This project involved creating a context-free grammar (CFG) for a subset of English, focusing on parsing declarative, conditional, and interrogative sentences. The initial CFG was designed to generate and parse sentences while assigning appropriate syntactic structures. To improve grammatical accuracy, number agreement was implemented, ensuring consistency between nouns and verbs (e.g., singular/plural forms). Additionally, subcategorization features were introduced to specify valid argument structures for verbs, eliminating ungrammatical outputs like "Arthur loves thinks."
+
+                                The grammar was incrementally developed, tested on positive sentences (e.g., "Arthur loves Guinevere") and negative examples (e.g., "Guinevere love the horse") to ensure correctness and robustness. Recursive rules allowed handling of nested phrases and multiple adjectives dynamically. Testing included both hand-drawn parse trees for validation and automated parsing for complex sentences.
+                                
+                                While the grammar captures a limited subset of English, it demonstrates the principles of CFG engineering, number agreement, and subcategorization. Reflections highlight areas for potential improvement, such as better handling of tense and more complex structures. This project showcases practical applications of computational linguistics in building dynamic, linguistically-informed grammars.</p>
                             <hr>
                             <h5>Main technologies used:</h5>
                             <h5 class="mb-4"><span class="badge rounded-pill bg-primary">Python</span> <span
-                                    class="badge rounded-pill bg-primary">SciKit-learn</span> <span
-                                    class="badge rounded-pill bg-primary">Flask</span> <span
-                                    class="badge rounded-pill bg-primary">Matplotlib</span>
-                                <span class="badge rounded-pill bg-primary">Firebase</span>
+                                    class="badge rounded-pill bg-primary">NLTK</span>
                             </h5>
 
-                            <a href="https://github.com/rafkol98/CVD-model" class="btn btn-primary" target="_blank">Code
-                                for ML model development</a>
-                            <a href="https://github.com/rafkol98/CVD-web" class="btn btn-primary" target="_blank">Code
-                                for web platform</a>
+                            <a href="https://github.com/rafkol98/Grammar-Engineering" class="btn btn-primary" target="_blank">Code</a>
+                            <button type="button" class="btn btn-primary" id="load-pdf-cfg">
+                                Read report
+                            </button>
+
+
                         </div>
                     </div>
                 </div>

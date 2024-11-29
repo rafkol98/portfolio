@@ -60,3 +60,7 @@ document.getElementById("load-pdf-st-andrews").addEventListener("click", functio
 document.getElementById("load-pdf-cambridge").addEventListener("click", function () {
     window.open("./assets/pdf/Flufftail.pdf", "_blank");
 });
+
+document.getElementById("load-pdf-cfg").addEventListener("click", function () {
+    window.open("./assets/pdf/NLP_CFG.pdf", "_blank");
+});
