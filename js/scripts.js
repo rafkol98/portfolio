@@ -55,3 +55,8 @@ var typed = new Typed('#hello', {
 document.getElementById("load-pdf-st-andrews").addEventListener("click", function () {
     window.open("./assets/pdf/Dissertation-st-andrews.pdf", "_blank");
 });
+
+
+document.getElementById("load-pdf-cambridge").addEventListener("click", function () {
+    window.open("./assets/pdf/Flufftail.pdf", "_blank");
+});
