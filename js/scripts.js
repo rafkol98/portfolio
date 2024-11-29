@@ -42,11 +42,11 @@
 })(jQuery); // End of use strict
 
 var typed = new Typed('#hello', {
-    strings: [, "Hey 👋🏼, I am Rafael Kollyfas.", "I ❤️ programming, learning, and collaborating!"],
+    strings: [, "Hey 👋🏼, I am Rafael Kollyfas 👨🏻‍💻🧬🇨🇾☘️"],
     typeSpeed: 50,
-    loop: true,
-    backSpeed: 100,
-    backDelay: 8000,
+    // loop: true,
+    // backSpeed: 100,
+    // backDelay: 8000,
     cursorChar: ".",
     showCursor: false
 });
