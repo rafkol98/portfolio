@@ -42,7 +42,7 @@
 })(jQuery); // End of use strict
 
 var typed = new Typed('#hello', {
-    strings: [, "Hey 👋🏼, I am Rafael Kollyfas 👨🏻‍💻🧬🇨🇾☘️"],
+    strings: [, "Hey 👋🏼, I am Rafael Kollyfas 👨🏻‍💻🧬🇨🇾"],
     typeSpeed: 50,
     // loop: true,
     // backSpeed: 100,
