@@ -41,11 +41,18 @@ p.lead {
 }
 
 .subheading {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 500;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: rgb(80, 80, 80) !important;
 }
+
+.academic-paper {
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: rgb(14, 14, 14) !important;
+}
+
 
 .degree-mark {
   text-transform: uppercase;
